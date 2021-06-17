@@ -3,11 +3,11 @@
 
 int main()
 {
-	int i, j, k;
+  int i, j, k;
 
-	printf("Endereço de i: %p\n", &i);
-	printf("Endereço de j: %p\n", &j);
-	printf("Endereço de k: %p\n", &k);
+  printf("Endereço de i: %p\n", &i);
+  printf("Endereço de j: %p\n", &j);
+  printf("Endereço de k: %p\n", &k);
 
-	return 0;
+  return 0;
 }
