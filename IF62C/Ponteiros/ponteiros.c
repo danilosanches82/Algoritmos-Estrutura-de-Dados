@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
 
-int b;
-int *c;
-b=10;
-c=&b;
-*c=11;
-printf("\n%d\n",b);
+	int b, *c;
 
-return(0);
+	b = 10;
+	c = &b;
+	*c = 11;
+
+	printf("b = %d\n", b);
+
+	return 0;
 }
